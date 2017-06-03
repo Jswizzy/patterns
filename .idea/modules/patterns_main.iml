@@ -9,5 +9,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.apache.derby:derby:10.9.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.twitter4j:twitter4j-core:4.0.4" level="project" />
   </component>
 </module>

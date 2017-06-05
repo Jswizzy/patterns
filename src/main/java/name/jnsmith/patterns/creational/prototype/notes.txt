@@ -1,0 +1,23 @@
+Overview:
+  avoids costly creation
+  avoids subclassing
+  don't use new
+  cloned
+  Registry keep usually
+
+examples:
+  java.lang.Object#Clone
+
+design:
+  implement clone/cloneable interface
+  can use params
+  shallow or deep
+  unique instance
+
+Pitfalls:
+  refractory pattern
+  often not used
+  use with another pattern
+  shallow vs deep copy
+  might be a framework
+

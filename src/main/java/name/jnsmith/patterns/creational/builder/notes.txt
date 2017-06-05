@@ -1,0 +1,21 @@
+Overview:
+  handles complex constructors
+  can force immutable
+  lots of setter or parameters
+
+examples:
+  string builder
+  document builder
+  locale builder
+
+design:
+  flexibility over telescoping constructor
+  static inner class or part of class it is building
+  can have interface but doesn't need one
+
+
+Pitfalls:
+  inner static class
+  immutable
+  needs to designed first
+  complexity

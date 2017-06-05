@@ -1,0 +1,28 @@
+Overview:
+  only one instance created
+  no arguments
+  private constructor
+  no interface
+  guarantees control of a resource
+  lazily loaded
+
+examples:
+  runtime
+  logger
+  spring beans
+  graphic managers
+
+
+design:
+  static in nature
+  needs to be thread safe, therefor not marked static
+
+  private instance
+  private constructor
+
+  no parameters required for construction
+
+Pitfalls:
+  easy to overuse
+  difficult to test
+  confused for factory

@@ -3,6 +3,8 @@ Overview:
   factory of related objects
   common interface
   defer to subclasses
+  heavy abstraction
+  framework pattern
 
 examples:
   document builder

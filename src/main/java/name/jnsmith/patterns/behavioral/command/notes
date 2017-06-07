@@ -1,0 +1,19 @@
+Overview:
+  encapsulates each request as an object
+  object oriented callback
+  decouple sender from the processor
+  allows for undo functionality
+
+examples:
+  java lang runnable
+  swing action
+
+design:
+  object per command
+  command interface
+  execute method
+  undo method
+  reflection
+  command invoker concrete command
+
+Pitfalls:

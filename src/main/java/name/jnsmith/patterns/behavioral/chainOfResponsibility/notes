@@ -1,0 +1,27 @@
+Overview:
+  decouple the sender and receiver
+  receiver contains reference to next receiver
+  promotes lose coupling
+  may not be a handler
+  runtime configuration
+  hierarchical in nature
+
+examples:
+  java util logger
+  servlet filter
+  security chain
+
+design:
+  chain of receiver objects
+  handler is interfaced based
+  concrete handler for each implementation
+  each handler has a reference to the next
+  handler, concrete handler
+  handler unique
+  successor
+  can utilize the command
+
+Pitfalls:
+  handling guarantee that everything is handled
+  runtime configuration risk
+  chain length/performance risk

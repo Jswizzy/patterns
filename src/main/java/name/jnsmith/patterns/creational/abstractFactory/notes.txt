@@ -1,10 +1,24 @@
 Overview:
-
+  factory of factories
+  factory of related objects
+  common interface
+  defer to subclasses
 
 examples:
-
+  document builder
+  frameworks
 
 design:
-
+  group a collection of factories together
+  factory ios responsible for lifecycle
+  concrete classes
+  parametrized create method
+  built through composition
 
 Pitfalls:
+  complexity
+  difficult
+  runtime switch
+  pattern of pattern
+  problem specific
+

@@ -1,0 +1,29 @@
+Overview:
+  doesn't expose instantiation logic
+  defer to subclasses
+  common interface
+  specifies architecture, implemented by user
+  various instances
+  multiple constructors
+  subclasses
+  adaptive
+  parameter driven
+  solves complexity
+  opposite of singleton
+
+examples:
+  calendar
+  resource bundle
+  number format
+
+design:
+  factory is responsible for lifecycle
+  common interface
+  concrete classes
+  creation in subclasses
+
+Pitfalls:
+  lots of pieces
+  complexity
+  refactoring not really possible
+

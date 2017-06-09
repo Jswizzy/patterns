@@ -3,6 +3,10 @@ Overview:
   object oriented callback
   decouple sender from the processor
   allows for undo functionality
+  object per command
+  class contains the 'what'
+  very few draw backs
+  second most used
 
 examples:
   java lang runnable
@@ -17,3 +21,7 @@ design:
   command invoker concrete command
 
 Pitfalls:
+  dependence on other command
+  multiple commands
+  make use of memento
+  Prototype for copies

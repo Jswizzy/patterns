@@ -1,0 +1,25 @@
+Overview:
+  Transverse a container
+  doesn't expose underlying structure
+  decouples data from algorithms
+  sequential
+  concurrent modification
+  efficient way to traverse
+  algorithm
+  foreach syntax
+
+examples:
+  java util iterator
+  java util enumeration
+
+design:
+  interface based
+  factory method based
+  independent, but fail fast
+  enumerators are fail safe
+  iterator, concrete iterator
+
+Pitfalls:
+  no random access
+  directional
+  speed / efficiency

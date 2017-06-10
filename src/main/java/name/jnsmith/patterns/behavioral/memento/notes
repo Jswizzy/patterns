@@ -1,0 +1,21 @@
+Overview:
+  restore object to previous state
+  externalize internal state
+  undo or rollback
+  shields complex internals
+
+examples:
+  java util date
+  java util serializable
+
+design:
+  class based
+  original
+  caretaker
+  memento
+  magic cookie
+
+Pitfalls:
+  expensive
+  deletes history
+  exposing info

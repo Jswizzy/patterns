@@ -1,10 +1,24 @@
 Overview:
-
+  loose coupling
+  well defined, but complex
+  reusable components
+  hub/ router
+  better than command
+  decouple objects
+  specific
 
 examples:
-
+  java util timer
+  java lang reflect method
 
 design:
-
+  interface based
+  concrete class
+  minimizes inheritance
+  mediator knows about colleagues
+  mediator and concrete mediator
 
 Pitfalls:
+  deity object
+  limits subclassing
+  over or with command

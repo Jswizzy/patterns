@@ -1,10 +1,20 @@
 Overview:
-
+  one to many
+  decouple
+  event handling
+  pub sub
+  MVC
 
 examples:
-
+  java util observer
+  java util event listener
+  topic
 
 design:
-
+  subject
+  observer
+  observable
+  vies are observers
+  subject, concrete subject, observer, concrete observer
 
 Pitfalls:

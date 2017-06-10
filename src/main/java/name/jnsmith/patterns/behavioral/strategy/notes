@@ -1,10 +1,18 @@
 Overview:
-
+  runtime
+  eliminates conditional statements
+   difficult to add new strategies
+   behaviour encapsulation
+   client aware of strategies
+   client choose strategies
 
 examples:
-
+  java util comparator
 
 design:
-
+  abstract base class
+  concrete class per strategy
+  strategies are independent
+  context, strategy, concrete strategy
 
 Pitfalls:

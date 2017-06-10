@@ -22,3 +22,5 @@ Pitfalls:
   deity object
   limits subclassing
   over or with command
+
+can use with mediator to broadcast through an observer

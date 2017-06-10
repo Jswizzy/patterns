@@ -18,3 +18,9 @@ design:
   subject, concrete subject, observer, concrete observer
 
 Pitfalls:
+  unexpected updates
+  large sized consequences
+  what changed
+  debugging difficult
+
+can use with mediator to broadcast through an observer

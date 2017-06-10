@@ -1,10 +1,30 @@
 Overview:
-
+  used to represent state in an application
+  localize state behavior
+  separates what from where
+  OCP
+  gets rid of large if and else
+  interfaced based
+  class per state
+  transitions
+  simplifies cyclomatic complexity
+  very similar to strategy almost the same uml
 
 examples:
-
+  none!
+  JSF
+  Iterator
 
 design:
-
+  Abstract class / interface
+  class based
+  context unaware
+  context, state, concrete state
 
 Pitfalls:
+  know your states
+  more classes
+  keep logic out of context
+  state change triggers
+
+use if cycling through states

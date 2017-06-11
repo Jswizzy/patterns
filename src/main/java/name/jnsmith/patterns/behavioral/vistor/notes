@@ -1,10 +1,20 @@
 Overview:
-
+  Separate algorithm for object
+  adding new features
+  maintains open closed principle
+  visitor changes
 
 examples:
-
+  java language model element element / visitor
 
 design:
-
+  interface based
+  most design around from the start
+  visitor and element
+  visitor knows every element
+  visitor, concrete visitor, element, concrete element
 
 Pitfalls:
+  plan on adaptability
+  indirection somewhat confusing
+  adapter pattern

@@ -1,10 +1,13 @@
 Overview:
   runtime
   eliminates conditional statements
-   difficult to add new strategies
-   behaviour encapsulation
-   client aware of strategies
-   client choose strategies
+  difficult to add new strategies
+  behaviour encapsulation
+  client aware of strategies
+  client choose strategies
+  interface based
+  algorithms are independent
+  class per algorithm
 
 examples:
   java util comparator
@@ -16,3 +19,8 @@ design:
   context, strategy, concrete strategy
 
 Pitfalls:
+  client aware of strategies
+  have to be chosen
+  increased number of classes
+
+Externalizes algorithms

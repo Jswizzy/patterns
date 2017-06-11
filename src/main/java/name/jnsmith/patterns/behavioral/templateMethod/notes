@@ -1,10 +1,26 @@
 Overview:
-
+  code reuse
+  common for libraries and frameworks
+  IoC (Hollywood principle)
+  algorithm emphasis
+  allows configuration
+  class based not interface based
+  compile time not runtime
+  same algorithm
 
 examples:
-
+  java util collections sort
+  java util abstract
 
 design:
-
+  abstract base class
+  bass calls child
+  hooks
+  operations
+  abstract base, concrete class
 
 Pitfalls:
+  restrict access
+  implement hooks
+  confusing hierarchy
+  difficult program flow
